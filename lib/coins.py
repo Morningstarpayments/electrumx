@@ -1060,7 +1060,7 @@ class Morningstar(Coin):
     TX_PER_BLOCK = 3
     IRC_PREFIX = "E_"
     IRC_CHANNEL = "#electrum-mrng"
-    RPC_PORT = 15715
+    RPC_PORT = 29086
     REORG_LIMIT = 5000
     HEADER_HASH = None
 
