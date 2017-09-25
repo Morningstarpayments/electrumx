@@ -1048,8 +1048,6 @@ class Morningstar(Coin):
     NAME = "Morningstar"
     SHORTNAME = "MRNG"
     NET = "mainnet"
-    XPUB_VERBYTES = bytes.fromhex("0488B21E")
-    XPRV_VERBYTES = bytes.fromhex("0488ADE4")
     P2PKH_VERBYTE = bytes.fromhex("32")
     P2SH_VERBYTES = [bytes.fromhex("37"), bytes.fromhex("05")]
     WIF_BYTE = bytes.fromhex("B0")
