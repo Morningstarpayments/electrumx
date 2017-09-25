@@ -1043,3 +1043,23 @@ class Bitzeny(Coin):
     TX_PER_BLOCK = 1
     RPC_PORT = 9252
     REORG_LIMIT = 1000
+    
+class Morningstar(Coin):
+    NAME = "Morningstar"
+    SHORTNAME = "MRNG"
+    NET = "mainnet"
+    XPUB_VERBYTES = bytes.fromhex("0488B21E")
+    XPRV_VERBYTES = bytes.fromhex("0488ADE4")
+    P2PKH_VERBYTE = bytes.fromhex("32")
+    P2SH_VERBYTES = [bytes.fromhex("37"), bytes.fromhex("05")]
+    WIF_BYTE = bytes.fromhex("B0")
+    GENESIS_HASH = ('7f06270eada62ade81aa19b05a73b8cb'
+                    '2d9ad9ea7720a5277bb1de8b38a32dee')
+    DESERIALIZER = DeserializerSegWit
+    TX_COUNT = 10680
+    TX_COUNT_HEIGHT = 10680
+    TX_PER_BLOCK = 2
+    RPC_PORT = 29086
+    REORG_LIMIT = 1000
+
+    
