@@ -1064,7 +1064,7 @@ class Morningstar(Coin):
     RPC_PORT = 29086
     REORG_LIMIT = 5000
     
-     @classmethod
+    @classmethod
     def header_hash(cls, header):
         '''Given a header return the hash.'''
         if cls.HEADER_HASH is None:
