@@ -1063,7 +1063,7 @@ class Morningstar(Coin):
     IRC_CHANNEL = "#electrum-mrng"
     RPC_PORT = 29086
     REORG_LIMIT = 5000
-    HEADER_HASH = NONE
+    HEADER_HASH = None
     
     @classmethod
     def header_hash(cls, header):
