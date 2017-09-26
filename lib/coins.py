@@ -1055,7 +1055,6 @@ class Morningstar(Coin):
     GENESIS_HASH = ('7f06270eada62ade81aa19b05a73b8cb'
                     '2d9ad9ea7720a5277bb1de8b38a32dee')
     DESERIALIZER = DeserializerTxTime
-    DAEMON = daemon.LegacyRPCDaemon
     TX_COUNT = 10000
     TX_COUNT_HEIGHT = 10000
     TX_PER_BLOCK = 3
