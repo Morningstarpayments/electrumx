@@ -1049,7 +1049,7 @@ class Morningstar(Coin):
     SHORTNAME = "MRNG"
     NET = "mainnet"
     P2PKH_VERBYTE = bytes.fromhex("32")
-    P2SH_VERBYTES = [bytes.fromhex("05")]
+    P2SH_VERBYTES = [bytes.fromhex("37")]
     WIF_BYTE = bytes.fromhex("b0")
     GENESIS_HASH = ('7f06270eada62ade81aa19b05a73b8cb'
                     '2d9ad9ea7720a5277bb1de8b38a32dee')
